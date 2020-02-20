@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Trading View' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_modular_headers!
+  pod 'ObjectMapper'
+  pod 'Alamofire', '~> 4.0'
+  pod 'Kingfisher'
+  # Pods for Trading View
+
+end
