@@ -7,6 +7,7 @@ target 'Trading View' do
   pod 'ObjectMapper'
   pod 'Alamofire', '~> 4.0'
   pod 'Kingfisher'
+  pod 'SDWebImageSwiftUI'
   # Pods for Trading View
 
 end
