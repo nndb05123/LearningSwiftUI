@@ -6,8 +6,8 @@ target 'Trading View' do
   use_modular_headers!
   pod 'ObjectMapper'
   pod 'Alamofire', '~> 4.0'
-  pod 'Kingfisher'
   pod 'SDWebImageSwiftUI'
+  pod 'SSSwiftUILoader'
   # Pods for Trading View
 
 end

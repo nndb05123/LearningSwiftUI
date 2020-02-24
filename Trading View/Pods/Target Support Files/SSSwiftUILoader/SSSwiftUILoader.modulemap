@@ -1,0 +1,6 @@
+module SSSwiftUILoader {
+  umbrella header "SSSwiftUILoader-umbrella.h"
+
+  export *
+  module * { export * }
+}

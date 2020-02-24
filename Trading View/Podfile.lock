@@ -1,36 +1,34 @@
 PODS:
   - Alamofire (4.9.1)
-  - Kingfisher (5.13.1):
-    - Kingfisher/Core (= 5.13.1)
-  - Kingfisher/Core (5.13.1)
   - ObjectMapper (3.5.1)
   - SDWebImage (5.5.2):
     - SDWebImage/Core (= 5.5.2)
   - SDWebImage/Core (5.5.2)
   - SDWebImageSwiftUI (0.10.3):
     - SDWebImage (~> 5.3)
+  - SSSwiftUILoader (0.1.1)
 
 DEPENDENCIES:
   - Alamofire (~> 4.0)
-  - Kingfisher
   - ObjectMapper
   - SDWebImageSwiftUI
+  - SSSwiftUILoader
 
 SPEC REPOS:
   trunk:
     - Alamofire
-    - Kingfisher
     - ObjectMapper
     - SDWebImage
     - SDWebImageSwiftUI
+    - SSSwiftUILoader
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  Kingfisher: f33a848445e33c543620812158dc5d47f6bf90df
   ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
   SDWebImage: 4d5c027c935438f341ed33dbac53ff9f479922ca
   SDWebImageSwiftUI: 52a2dda1f76e2e5bf0b5ea4c0831737358656905
+  SSSwiftUILoader: 100fd3d35daf8969a2227b9bf93380712ee3a27d
 
-PODFILE CHECKSUM: fcbb6b85c942bec10090d2590414ca72007901bb
+PODFILE CHECKSUM: d2b74278828372d8ce62e6c8dc21eec17c35cd16
 
 COCOAPODS: 1.9.0.beta.2

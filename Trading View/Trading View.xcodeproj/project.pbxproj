@@ -24,6 +24,7 @@
 		C93FFE6423FE7E93000A26E3 /* NewsCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93FFE6323FE7E93000A26E3 /* NewsCellView.swift */; };
 		C93FFE6623FE7F0B000A26E3 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93FFE6523FE7F0B000A26E3 /* WebView.swift */; };
 		C93FFE6823FE7F13000A26E3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93FFE6723FE7F13000A26E3 /* DetailView.swift */; };
+		C96852292403C1DC0004D55F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96852282403C1DC0004D55F /* Helper.swift */; };
 		C9E102EF23FE2F9A0045A8BD /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E102EE23FE2F9A0045A8BD /* ServiceManager.swift */; };
 		C9E102F823FE2FA30045A8BD /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E102F223FE2FA30045A8BD /* UIColor.swift */; };
 		C9E102F923FE2FA30045A8BD /* BPStatusBarAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E102F423FE2FA30045A8BD /* BPStatusBarAlert.swift */; };
@@ -54,6 +55,7 @@
 		C93FFE6323FE7E93000A26E3 /* NewsCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCellView.swift; sourceTree = "<group>"; };
 		C93FFE6523FE7F0B000A26E3 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		C93FFE6723FE7F13000A26E3 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C96852282403C1DC0004D55F /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		C9E102EE23FE2F9A0045A8BD /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
 		C9E102F223FE2FA30045A8BD /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		C9E102F423FE2FA30045A8BD /* BPStatusBarAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPStatusBarAlert.swift; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 				C9E102F523FE2FA30045A8BD /* ReachabilityManager.swift */,
 				C9E102F623FE2FA30045A8BD /* DeviceDimensions.swift */,
 				C9E102F723FE2FA30045A8BD /* Reachability.swift */,
+				C96852282403C1DC0004D55F /* Helper.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				C9E102FB23FE2FA30045A8BD /* DeviceDimensions.swift in Sources */,
 				C9E102FA23FE2FA30045A8BD /* ReachabilityManager.swift in Sources */,
 				C91C7CBE23FE2EBD00EFC651 /* SceneDelegate.swift in Sources */,
+				C96852292403C1DC0004D55F /* Helper.swift in Sources */,
 				C9E102FC23FE2FA30045A8BD /* Reachability.swift in Sources */,
 				C91C7CC023FE2EBD00EFC651 /* ContentView.swift in Sources */,
 				C93FFE6423FE7E93000A26E3 /* NewsCellView.swift in Sources */,

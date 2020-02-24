@@ -8,6 +8,7 @@
 
 import Foundation
 import ObjectMapper
+import SSSwiftUILoader
 
 class HomeViewModel : ObservableObject{
     @Published var listPined = [NewsModel]()
@@ -113,8 +114,9 @@ class HomeViewModel : ObservableObject{
         body["pagesize"] = pageSize
         body["categoryIds"] = ["5c47ee458c8422383c9762ac"]
         body["tickerIds"] = []
-
+        Helper.shared.showLoading()
         ServiceManager.defaults().requestAlarmofire(method: .post, headers: ServiceManager.defaults().headers(), url: url, params: body, completion: { (data:[[String:Any]]) in
+            Helper.shared.hideLoading()
             if data.count != 0 {
                 self.listPined = Mapper<NewsModel>().mapArray(JSONArray: data)
                 for item in self.listPined {
@@ -123,6 +125,7 @@ class HomeViewModel : ObservableObject{
                 }
             }
         }) { (err) in
+            Helper.shared.hideLoading()
             print(err)
         }
     }
