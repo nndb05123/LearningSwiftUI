@@ -15,11 +15,6 @@ public  enum ErrorAlamofire: Int {
     case dataMalformed
 }
 
-enum DefaultResponse {
-    case SUCCESS
-    case FAIL
-}
-
 public class ServiceManager {
     
     private static var  shareInstance: ServiceManager  = {

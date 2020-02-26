@@ -10,10 +10,17 @@ import SwiftUI
 
 struct HomeView: View {
     @ObservedObject var homeViewModel = HomeViewModel()
+
+    private func getNewsStock() {
+        homeViewModel.pageGetNewsStock += 1
+    }
     var body: some View {
         NavigationView {
             VStack {
-                List(homeViewModel.listPined) { news in
+                Button(action: getNewsStock) {
+                    Text("Bấm để tăng page")
+                }
+                List(homeViewModel.listNewsStock) { news in
                     NewsCellView(news: news)
                 .navigationBarTitle("You Trade")
                 }
@@ -24,6 +31,6 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        HomeView().previewDevice(PreviewDevice(rawValue: "iPhone Xs Max"))
     }
 }
